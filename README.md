@@ -1,24 +1,16 @@
-# README
+# Travel Aggregator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple travel catalog — browse trips by country. Learning project built with Ruby on Rails.
 
-Things you may want to cover:
+## Tech stack
 
-* Ruby version
+- Ruby 3.4.8, Rails 8.1
+- SQLite
+- Hotwire (Turbo + Stimulus), Propshaft, import maps
 
-* System dependencies
+## Getting started
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+bin/setup   # install dependencies and prepare the database
+bin/dev     # start the local server (http://localhost:3000)
+```
